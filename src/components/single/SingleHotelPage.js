@@ -158,10 +158,11 @@ const SingleHotelPage = ({ hotels }) => {
           <div className="optioner">
             <div className="optioner_one">
               <div className="option_detail">
-                <h2 className="option_hotel">The Montcalm At Brewery London</h2>
+                <h2 className="option_hotel">{hotelDetails.name}</h2>
                 <h3 className="option_desc">
+
                   <FiMapPin />
-                  Westminster Borough, London
+                  {hotelDetails.location}
                 </h3>
               </div>
               <div className="option_detail ttt">
