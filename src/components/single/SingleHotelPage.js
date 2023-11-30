@@ -110,12 +110,12 @@ const SingleHotelPage = ({ hotels }) => {
             <h3 className="hotel_detailer poo">home | </h3>
           </Link>
           <h3 className="hotel_detailer">london hotels | </h3>
-          <h3 className="hotel_detailer">
+          <h3 className="hotel_detailer um">
             Great Northern Hotel, a Tribute Portfolio Hotel, London
           </h3>
         </div>
         <div className="single_hotel_righter">
-          <h3 className="hotel_detailer">All Hotel in London</h3>
+          <h3 className="hotel_detailer oc">All Hotel in London</h3>
         </div>
       </div>
 
@@ -386,9 +386,11 @@ const SingleHotelPage = ({ hotels }) => {
                     <div className="sub_miner opz">
                       <h2>3 rooms for </h2>
                       <h3>{hotelDetails.price}</h3>
+                      <div className="lk">
                       <button className="hotel_option_btns">
                         select room <MdOutlineArrowOutward />
                       </button>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -685,96 +687,8 @@ const SingleHotelPage = ({ hotels }) => {
                 </ul>
               </div>
             </div>
-            <div className="fb_sub_grid">
-              {" "}
-              <h2 className="sub_fb">
-                <MdOutlineCleanHands className="meow" />
-                Cleaning services
-              </h2>
-              <div className="nm">
-                <ul>
-                  <li>
-                    <MdArrowRight />
-                    Daily housekeeping
-                  </li>
-                  <li>
-                    <MdArrowRight />
-                    Dry cleaning
-                  </li>
-                  <li>
-                    <MdArrowRight />
-                    Laundry
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="fb_sub_grid">
-              {" "}
-              <h2 className="sub_fb">
-                <SiDwavesystems className="meow" />
-                General
-              </h2>
-              <div className="nm">
-                <ul>
-                  <li>
-                    <MdArrowRight />
-                    Hypoallergenic
-                  </li>
-                  <li>
-                    <MdArrowRight />
-                    Non-smoking throughout
-                  </li>
-                  <li>
-                    <MdArrowRight />
-                    Wake-up service
-                  </li>
-                  <li>
-                    <MdArrowRight />
-                    Heating
-                  </li>
-                  <li>
-                    <MdArrowRight />
-                    Packed lunches
-                  </li>
-                  <li>
-                    <MdArrowRight />
-                    Carpeted
-                  </li>
-                  <li>
-                    <MdArrowRight />
-                    Lift
-                  </li>
-                  <li>
-                    <MdArrowRight />
-                    Fan
-                  </li>
-                  <li>
-                    <MdArrowRight />
-                    Family rooms
-                  </li>
-                  <li>
-                    <MdArrowRight />
-                    Facilities for disabled guests
-                  </li>
-                  <li>
-                    <MdArrowRight />
-                    Ironing facilities
-                  </li>
-                  <li>
-                    <MdArrowRight />
-                    Non-smoking rooms
-                  </li>
-                  <li>
-                    <MdArrowRight />
-                    Iron
-                  </li>
-                  <li>
-                    <MdArrowRight />
-                    Room service
-                  </li>
-                </ul>
-              </div>
-            </div>
+           
+           
           </div>
         </div>
 
