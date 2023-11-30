@@ -1,0 +1,105 @@
+.sub_container {
+  background: #13357b;
+  padding: 0 60px;
+  align-items: center;
+  border-top: 1px solid #797676;
+}
+.sub_main {
+  height: 20vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+}
+.sub_sub {
+}
+.op {
+  display: flex;
+  gap: 20px;
+  color: #ddd;
+  align-items: center;
+}
+.dp {
+  font-size: 50px;
+}
+.email_title {
+  font-size: 25px;
+  margin-bottom: 7px;
+}
+.email_titler {
+  font-size: 13px;
+  font-weight: 400;
+}
+.ghy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sub_input {
+  padding: 10px 100px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+.sub_inputer {
+  display: flex;
+  gap: 10px;
+}
+.sub_btn {
+  border-radius: 5px;
+  background-color: #007bff; /* Change this to the color you want for the active link */
+  border: none;
+  padding: 10px 50px;
+  color: #ddd;
+  font-family: "poppins", sans-serif;
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1175px) {
+  .sub_main {
+    grid-template-columns: 1fr;
+    height: auto;
+    padding: 20px 0;
+  }
+  .op {
+    justify-content: center;
+  }
+  .sub_inputer {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 583px) {
+  .email_title {
+    font-size: 22px;
+  }
+  .op {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .sub_detailer {
+    text-align: center;
+  }
+  .sub_inputer {
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .sub_input{
+    padding: 10px 50px;
+  }
+  
+}
+@media screen and (max-width: 310px) {
+  .sub_input{
+    padding: 10px 40px;
+  }
+  
+}
+

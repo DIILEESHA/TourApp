@@ -1,0 +1,140 @@
+.footer_container {
+  padding: 40px 60px;
+  height: 40vh;
+  /* width: 100%; */
+}
+.footer_main {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+.footer_name {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* justify-content: center; */
+}
+.footer_name h2 {
+  font-size: 17px;
+  text-transform: capitalize;
+  opacity: 90%;
+  margin-bottom: 20px;
+}
+.footer_ul {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.footer_li {
+  list-style: none;
+  text-transform: capitalize;
+  font-size: 14px;
+  opacity: 77%;
+  font-weight: 500;
+  cursor: pointer;
+}
+.li_card {
+  border: 1px solid #b4b0b0;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  width: fit-content;
+}
+.apple {
+  font-size: 30px;
+  color: #000;
+}
+.li_detail {
+  font-size: 14px;
+  font-weight: 400;
+}
+.lki {
+  margin-bottom: 20px;
+}
+.lki h2 {
+  color: #007bff;
+  font-size: 14px;
+  margin-top: 5px;
+}
+.another {
+  margin-top: 50px;
+  border-top: 1px solid #ddd;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 20px 0;
+}
+.oner {
+  display: flex;
+  gap: 10px;
+}
+.copyright {
+  font-size: 15px;
+  font-weight: 300;
+  opacity: 80%;
+  cursor: pointer;
+}
+.twoer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
+  color: #333;
+  cursor: pointer;
+}
+.l {
+  display: flex;
+  gap: 5px;
+}
+@media screen and (max-width: 1128px) {
+  .footer_main {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+  }
+}
+@media screen and (max-width: 923px) {
+  .another {
+    display: flex;
+    flex-direction: column;
+  }
+  .oner {
+    justify-content: center;
+  }
+  .twoer {
+    justify-content: center;
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 667px) {
+  .footer_container {
+    padding: 40px 30px;
+  }
+}
+@media screen and (max-width: 627px) {
+  .footer_main {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+  .footer_container {
+    padding: 40px 30px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .oner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 440px) {
+  .footer_main {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px;
+  }
+  .footer_container {
+    padding: 40px 10px;
+  }
+}
+
+
+@media screen and (max-width:453px){.li_card{
+}}

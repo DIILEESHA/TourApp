@@ -1,0 +1,86 @@
+.mainseller_container {
+  padding: 20px 60px;
+}
+.main_seller {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+.mainseller_title {
+  text-transform: capitalize;
+  color: #212529;
+  font-size: 30px;
+}
+.mainseller_para {
+  font-size: 14px;
+  opacity: 70%;
+  font-weight: 300;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.mainseller_ul {
+  display: flex;
+  justify-content: space-between;
+}
+.mainseller_li {
+  /* margin: 0 20px; */
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 14px;
+  text-transform: capitalize;
+  list-style: none;
+}
+.mainseller_ul a {
+  padding: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+  color: black;
+  border-radius: 5px;
+
+  background-color: antiquewhite;
+}
+.mainseller_ul a.active {
+  background-color: #007bff; /* Change this to the color you want for the active link */
+  color: white;
+  border-radius: 5px;
+}
+.mainseller_li a:hover {
+  /* color:#007bff;  */
+}
+
+@media screen and (max-width: 1087px) {
+  .main_seller {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .mainseller_ul {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    margin: 10px 0;
+  }
+}
+
+@media screen and (max-width: 667px) {
+  .mainseller_container {
+    padding: 20px 30px;
+  }
+}
+
+@media screen and (max-width: 584px) {
+  .mainseller_title {
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 455px) {
+  .mainseller_container {
+    padding: 20px 10px;
+  }
+}
+
+@media screen and (max-width: 435px) {
+  .mainseller_left {
+    width: 100%;
+    overflow-x: hidden;
+    overflow: scroll;
+  }
+}

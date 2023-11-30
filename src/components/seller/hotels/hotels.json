@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "img": "https://gotrip-appdir.vercel.app/_next/image?url=%2Fimg%2Fhotels%2F1.png&w=384&q=75",
+    "typer": "breakfast included",
+    "name": "The Montcalm At Brewery London City",
+    "location": "Westminster Borough, London",
+    "price": "  US$72",
+    "value": 4.7
+  },
+  {
+    "id": 2,
+    "img": "https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "name": "The Montcalm At Brewery London City",
+    "typer": "-25% Today",
+    "location": "Westminster Borough, London",
+    "price": "  US$80",
+    "value": 4.7
+  },
+  {
+    "id": 3,
+    "img": "https://images.pexels.com/photos/70441/pexels-photo-70441.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "name": "Staycity Aparthotels Deptford Bridge Station",
+    "typer": "best seller",
+    "location": "Westminster Borough, London",
+    "price": "  US$90",
+    "value": 4.7
+  },
+  {
+    "id": 4,
+    "img": "https://gotrip-appdir.vercel.app/_next/image?url=%2Fimg%2Fhotels%2F11.png&w=384&q=75",
+    "name": "The Westin New York at Times Square West",
+    "typer": "top rated",
+    "location": "Westminster Borough, London",
+    "price": "  US$85",
+    "value": 4.7
+  },
+  {
+    "id": 5,
+    "img": "https://images.pexels.com/photos/221457/pexels-photo-221457.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "name": "DoubleTree by Hilton Hotel New York Times Square West",
+    "typer": "-25% Today",
+    "location": "Westminster Borough, London",
+    "price": "  US$89",
+    "value": 4.4
+  },
+  {
+    "id": 6,
+    "img": "https://images.pexels.com/photos/2945692/pexels-photo-2945692.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "name": "The Montcalm At Brewery London City",
+    "typer": "-25% Today",
+    "location": "Westminster Borough, London",
+    "price": "  US$80",
+    "value": 4.7
+  },
+  {
+    "id": 7,
+    "img": "https://images.pexels.com/photos/1850593/pexels-photo-1850593.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "name": "Staycity Aparthotels Deptford Bridge Station",
+    "typer": "best seller",
+    "location": "Westminster Borough, London",
+    "price": "  US$30",
+    "value": 4.1
+  },
+  {
+    "id": 8,
+    "img": "https://images.pexels.com/photos/3225531/pexels-photo-3225531.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "name": "The Westin New York at Times Square West",
+    "typer": "top rated",
+    "location": "Westminster Borough, London",
+    "price": "  US$100",
+    "value": 4.9
+  }
+]

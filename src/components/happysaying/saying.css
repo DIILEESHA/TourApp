@@ -1,0 +1,111 @@
+.say_container {
+  padding: 60px 60px;
+  background: #13357b;
+  color: #ddd;
+}
+.say_card {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  align-items: center;
+}
+.say_min_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.say_title {
+  /* width: 26%; */
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.say_para {
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 1.1px;
+  width: 70%;
+  text-align: center;
+  line-height: 160%;
+  margin-bottom: 50px;
+}
+.happy_ppl {
+  display: flex;
+  gap: 80px;
+  /* align-items: center; */
+  justify-content: center;
+}
+.counter {
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+.counting {
+  font-size: 14px;
+  text-transform: capitalize;
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+.truster {
+  margin-top: 60px;
+}
+.trusting {
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.trusters {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  align-items: center;
+  width: 100%;
+}
+.trust {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+@media screen and (max-width: 610px) {
+  .trusters {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    gap: 30px;
+  }
+  .say_title {
+    text-align: center;
+  }
+  .say_para {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 667px) {
+  .say_container {
+    padding: 60px 30px;
+  }
+}
+
+@media screen and (max-width: 584px) {
+  .say_title {
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 455px) {
+  .say_container {
+    padding: 60px 10px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .say_para {
+    width: 100%;
+  }
+  .happy_ppl {
+    flex-direction: column;
+    gap: 40px;
+  }
+}

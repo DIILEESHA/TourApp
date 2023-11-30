@@ -1,0 +1,510 @@
+.single_container {
+  width: 100%;
+  overflow: hidden;
+  font-family: "poppins", sans-serif;
+}
+.single_hotel_toper {
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 50px;
+  align-items: center;
+}
+.single_hotel_lefter {
+  padding: 0 60px;
+  display: flex;
+  gap: 5px;
+}
+.single_hotel_righter {
+  padding: 0 60px;
+  display: flex;
+}
+.hotel_detailer {
+  opacity: 70%;
+  text-transform: capitalize;
+  display: flex;
+  font-size: 14px;
+  font-weight: 300;
+}
+.poo:hover {
+  color: teal;
+}
+.hotel_main_gallery {
+  display: grid;
+  gap: 20px;
+
+  grid-template-columns: 3fr 1fr;
+  /* width: 100%; */
+  padding: 30px 60px;
+}
+.bn {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 10px;
+  position: relative;
+  margin-bottom: 50px;
+}
+.dddd {
+  /* height: 140vh; */
+  /* overflow-x: scroll; */
+}
+
+.hotel_sub_image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.hotel_sub_image {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.customer {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+.custom-btn {
+  padding: 10px;
+  font-size: 13px;
+  font-family: "poppins", sans-serif;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.hotel_sub_image:nth-of-type(1) {
+  grid-column: 1/3;
+  grid-row: 1/3;
+}
+.hotel_sub_image:nth-of-type(2) {
+  grid-column: 3/4;
+  /* grid-row: 1/2; */
+}
+.hotel_sub_image:nth-of-type(4) {
+  grid-column: 3/5;
+  /* grid-row: 1/2; */
+}
+
+.fn {
+  border-radius: 5px;
+}
+.map_img {
+  margin-bottom: 10px;
+}
+.map_card {
+  border: 1px solid #c2bebe;
+  padding: 20px;
+  position: relative;
+  margin-bottom: 16px;
+  height: auto;
+}
+.mapper {
+  display: flex;
+  gap: 7px;
+  margin: 14px 0;
+}
+.doom {
+  color: #3554d1;
+}
+.mapper h3 {
+  font-size: 13px;
+  color: #181717;
+  font-weight: 500;
+}
+.mapper {
+  margin-bottom: 20px;
+  /* border-bottom: 1px solid #333; */
+}
+.liner {
+  margin-bottom: 20px;
+  border-top: 1px solid #918e8e;
+}
+.landmark {
+  font-size: 13px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: #181717;
+}
+.landmark_detail {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  margin-top: 10px;
+}
+.landmark_detail h2,
+h3 {
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.property {
+  margin: 20px 0;
+  gap: 10px;
+  align-items: center;
+  display: flex;
+}
+.property h2 {
+  font-size: 13px;
+  font-weight: 400;
+  /* text-transform: capitalize; */
+}
+
+.rater {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.rating_val {
+  font-size: 16px;
+  padding: 10px;
+  background-color: #3554d1;
+  font-weight: bold;
+  color: #ddd;
+  border-radius: 5px;
+}
+.rater_detail h2 {
+  font-size: 14px;
+  margin-bottom: 3px;
+  color: #181717;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.rater_detail h2:nth-child(2) {
+  opacity: 70%;
+  font-size: 13px;
+}
+.guest {
+  display: flex;
+  /* align-items: center; */
+  gap: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.guest h3 {
+  font-size: 13px;
+}
+.liker {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  border: 1px solid #cac5c5;
+  padding: 5px;
+  width: fit-content;
+  border-radius: 5px;
+}
+.liker h2 {
+  font-size: 13px;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+.liker h2:nth-child(1) {
+  color: #3554d1;
+}
+.optioner_one {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.option_hotel {
+  font-size: 25px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 5px;
+}
+.option_desc {
+  margin-bottom: 10px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  opacity: 70%;
+}
+.option_hotel_price {
+  display: flex;
+  gap: 4px;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.pricer {
+  font-size: 25px;
+  color: #333;
+}
+.hotel_option_btn {
+  background-color: #3554d1;
+  color: #ddd;
+  border-radius: 5px;
+  padding: 15px 20px;
+  border: none;
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.ttt {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.overviewer h2 {
+  font-size: 20px;
+  color: #333;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+.overviewer p {
+  font-size: 14px;
+  opacity: 90%;
+  margin-bottom: 20px;
+  /* letter-spacing: 0.9px; */
+  line-height: 160%;
+}
+.facilities h2 {
+  font-size: 20px;
+  color: #333;
+
+  margin-bottom: 20px;
+}
+.facility_grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+}
+.facility_sub {
+  display: flex;
+  gap: 5px;
+  opacity: 90%;
+  /* align-items: center; */
+}
+.facility_sub h2 {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.demon {
+  padding: 20px 60px;
+}
+
+.demand {
+  background: #e5f0fd;
+  margin-bottom: 20px;
+  padding: 20px;
+  display: flex;
+  gap: 15px;
+}
+.startt {
+  color: yellow;
+  font-size: 30px;
+  padding: 14px;
+  background: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+}
+.demand_ctrl {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+}
+.demand_ctrl h2 {
+  color: #333;
+
+  font-size: 17px;
+  font-weight: 300;
+}
+.demand_ctrl h3 {
+  font-size: 13px;
+  opacity: 80%;
+}
+
+/* Spinner.css */
+.spinner-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.spinner {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.rooms {
+  margin-bottom: 20px;
+}
+.rooms h2 {
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  color: #333;
+}
+.rooms_flex {
+  display: flex;
+  background: #e5f0fd;
+  padding: 20px;
+  gap: 20px;
+}
+.rooms_left {
+  flex: 1;
+}
+.rooms_right {
+  flex: 6;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.rooms_img img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 10px;
+}
+.room_title {
+  font-size: 15px;
+  color: #333;
+  text-transform: capitalize;
+}
+.rooms_min_right {
+  background-color: #fff;
+  border-radius: 5px;
+}
+.rooms_sub_min {
+  display: grid;
+  grid-template-columns: 3fr 1.5fr 2fr 2fr;
+  padding: 20px;
+}
+.rom_sub_min {
+  border-right: 1px solid #b6b3b3;
+  position: relative;
+}
+.rom_sub_min:last-child {
+  border: none;
+}
+.sub_miner h2 {
+  font-size: 15px;
+  color: #333;
+  font-weight: 600;
+}
+.sub_miner li {
+  list-style: none;
+  color: teal;
+  display: flex;
+  gap: 7px;
+  margin-bottom: 20px;
+  font-size: 13px;
+}
+
+.opi {
+  text-align: center;
+}
+.opz {
+  display: flex;
+  position: absolute;
+  text-align: end;
+  flex-direction: column;
+  justify-content: flex-end;
+  right: 0;
+}
+.opz h2 {
+  font-size: 14px;
+  font-weight: 300;
+  /* margin-top: -10px; */
+}
+.opz h3 {
+  font-weight: bold;
+  font-size: 19px;
+  margin-bottom: 5px;
+}
+.faperson {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+.persona {
+  /* margin: 50% 0; */
+  color: #333;
+  font-size: 30px;
+}
+.bla {
+  /* padding: 10px; */
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  justify-content: center;
+}
+.hotel_option_btns {
+  background-color: #3554d1;
+  color: #ddd;
+  border-radius: 5px;
+  padding: 15px 20px;
+  border: none;
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.der {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 20px;
+}
+.fb_grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.sub_fb {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.sub_fb {
+  font-size: 15px;
+  color: #333;
+  /* font-weight: 600; */
+}
+.meow {
+  font-size: 20px;
+}
+.nm li {
+  list-style: none;
+  margin: 10px 5px;
+  font-size: 14px;
+  opacity: 95%;
+  font-weight: 300;
+}
