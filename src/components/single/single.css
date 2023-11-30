@@ -370,6 +370,7 @@ h3 {
 }
 .rooms_left {
   flex: 1;
+  height: auto;
 }
 .rooms_right {
   flex: 6;
@@ -390,6 +391,7 @@ h3 {
 .rooms_min_right {
   background-color: #fff;
   border-radius: 5px;
+  height: auto;
 }
 .rooms_sub_min {
   display: grid;
@@ -399,6 +401,7 @@ h3 {
 .rom_sub_min {
   border-right: 1px solid #b6b3b3;
   position: relative;
+  height: auto;
 }
 .rom_sub_min:last-child {
   border: none;
@@ -507,4 +510,75 @@ h3 {
   font-size: 14px;
   opacity: 95%;
   font-weight: 300;
+}
+
+@media screen and (max-width: 1097px) {
+  .hotel_main_gallery {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0;
+  }
+  .map_img img {
+    width: 100%;
+    object-fit: cover;
+    height: 30vh;
+  }
+}
+
+@media screen and (max-width: 1181px) {
+  .rooms_flex {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 965px) {
+  .rooms_sub_min {
+    height: auto;
+    grid-template-columns: 1fr 1fr;
+  }
+  .opz {
+    position: relative;
+    justify-content: flex-start;
+    text-align: start;
+  }
+  .rom_sub_min {
+    border: none;
+  }
+  .faperson {
+    position: relative;
+    justify-content: flex-start;
+  }
+  .opi {
+    text-align: left;
+  }
+  .bla {
+    justify-content: flex-start;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 867px) {
+  .single_hotel_toper {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+    align-items: flex-start;
+  }
+  .single_hotel_lefter {
+    justify-content: flex-start;
+    display: flex;
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 757px) {
+  .optioner_one {
+    flex-direction: column;
+  }
+  .option_hotel_price {
+    justify-content: flex-start;
+  }
+  .hotel_option_btn {
+    width: fit-content;
+  }
 }
