@@ -158,27 +158,33 @@
     height: 100vh;
     /* height: calc(100vh - 0px); */
     width: 50vw;
-    background: #fff;
+    /* background: #fff; */
+
+    visibility: visible;
     z-index: 1;
     color: #333;
     top: 0;
-    margin: 0;
-    padding: 0;
+    margin: 0 auto;
+    padding: 20px;
     right: 0;
     /* opacity: .5; */
   }
+
+  .lop {
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 50%;
+  }
 }
 
-
-
-@media screen and (max-width:669px){
-  .nav_divide_container{
+@media screen and (max-width: 669px) {
+  .nav_divide_container {
     padding: 0 30px;
   }
 }
 
 @media screen and (max-width: 597px) {
-  .nav_search_input,.ci {
+  .nav_search_input,
+  .ci {
     display: none;
   }
 }

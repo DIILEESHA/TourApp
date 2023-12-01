@@ -46,7 +46,8 @@ const Navbar = () => {
             <span className="j">|</span>
 
             <div className="lanuage">
-              <img loading="lazy"
+              <img
+                loading="lazy"
                 className="lan_circle"
                 src="https://gotrip-appdir.vercel.app/_next/image?url=%2Fimg%2Fgeneral%2Flang.png&w=32&q=75"
                 alt=""
@@ -64,7 +65,7 @@ const Navbar = () => {
             <FontAwesomeIcon icon={faBars} className="fa-thin" />
           </div>
           <div
-            className="menu_option"
+            className="menu_option "
             style={{ right: isOpen ? "0px" : "-50vw" }}
           >
             <div className="closer">
